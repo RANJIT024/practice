@@ -9,10 +9,18 @@ int main() {
     cout << "Enter a string: ";
     cin >> str;
 
-    int n = str.length();
-    for (int i = 0; i < n / 2; i++) {
-        // Swap characters
-        swap(str[i], str[n - i - 1]);
+    // Initialize two pointers, one at the start and one at the end
+    int i = 0;
+    int j = str.length() - 1;
+
+    // Reverse the string using while loop
+    while (i < j) {
+        // Swap the characters
+        swap(str[i], str[j]);
+
+        // Move the pointers towards the center
+        i++;
+        j--;
     }
 
     // Output the reversed string

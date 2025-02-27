@@ -2,21 +2,13 @@
 using namespace std;
 
 void addOneToArray(int arr[], int size) {
-    // Start from the last element and propagate the carry if necessary
-    arr[size - 1] += 1;  // Add 1 to the last element
+    arr[size - 1] += 1;  
 
-    // Handle carry
     for (int i = size - 1; i > 0; --i) {
         if (arr[i] == 10) {
-            arr[i] = 0;  // Reset the current element to 0 if it overflows to 10
-            arr[i - 1] += 1;  // Carry over to the previous element
+            arr[i] = 0;  
+            arr[i - 1] += 1;  
         }
-    }
-
-    // If the first element is 10 after the carry, reset it to 0 and add a new digit at the start
-    if (arr[0] == 10) {
-        arr[0] = 0;
-        cout << "Overflow! Result exceeds array size.\n";
     }
 }
 

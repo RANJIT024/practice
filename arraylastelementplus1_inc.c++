@@ -16,10 +16,6 @@ void addOneToArray(int arr[], int size) {
     // If the first element is 10 after the carry, reset it to 0 and add a new digit at the start
     if (arr[0] == 10) {
         arr[0] = 0;
-        // If you need to handle the carry across the entire number
-        // (e.g., 999 + 1 => 1000), you would add another digit here.
-        // In the case of static arrays, we cannot resize them.
-        // But you can print overflow like this:
         cout << "Overflow! Result exceeds array size.\n";
     }
 }

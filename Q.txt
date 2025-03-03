@@ -1,0 +1,29 @@
+print name N times using recursion
+print 1 to N using recursion (vice versa)
+sum of first N numbers
+addition of two numbers (1->+ve,2->ve) try this one
+reverse string or check if a string is a palindrome
+find factorial of a number N
+find the nth fibo number
+factorial of any number n is defined as 
+n! = n*(n-1)*(n-2)*....*1
+
+ex 5! = 5x4x3x2x1 = 120//
+
+
+
+adding two number without +
+sum of digits unitl become single
+check a number is ever or odd withouyt %
+swap two number/
+reverse a string (two pointer)
+swap digits in string (7,9,9)- 8,0,0
+take a array add one at end
+remove duplicates in array
+sorting arrays
+find the length of array
+perfect 2 power or not/
+perfect 4 power or not/
+multiply without *
+find the length of number without loops
+spiral arrays
